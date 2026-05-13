@@ -1,0 +1,14 @@
+{
+    "directories": [
+        "/Users/quinn0823/Music/Music"
+    ],
+    "music_formats": [
+        "mp3",
+        "flac",
+        "m4a"
+    ],
+    "lyrics_formats": [
+        "lrc",
+        "txt"
+    ]
+}
