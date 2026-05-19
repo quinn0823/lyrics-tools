@@ -3,6 +3,6 @@
 cd /d %~dp0
 cd ..
 
-python quote_fixer.py
+python quote_scanner.py
 
 pause

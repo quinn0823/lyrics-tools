@@ -12,7 +12,7 @@ Standalone Python scripts for managing lyrics files and file naming. No package 
 
 - **`renamer.py`** — Walks directories from `config.json`, matches lyrics files to music files by track number prefix (e.g., `01` or `01-02`), and renames lyrics files to share the music file's base name (keeping the lyrics extension).
 
-- **`quote_fixer.py`** — Walks directories from `config.json`, scans file and directory names for straight single quotes (`'`, U+0027) and writes paths to `straight_quotes.txt` for manual review.
+- **`quote_scanner.py`** — Walks directories from `config.json`, scans file and directory names for straight single quotes (`'`, U+0027) and writes paths to `straight_quotes.txt` for manual review.
 
 ## Configuration
 
@@ -27,7 +27,7 @@ Standalone Python scripts for managing lyrics files and file naming. No package 
 ```bash
 python formatter.py
 python renamer.py
-python quote_fixer.py
+python quote_scanner.py
 ```
 
 All scripts read `config.json` from the current working directory and print summary statistics on completion.

@@ -221,5 +221,5 @@ __marimo__/
 # Shared configuration file
 config.json
 
-# Quote Fixer
+# Quote Scanner
 straight_quotes.txt

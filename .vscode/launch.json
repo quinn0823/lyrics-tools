@@ -9,10 +9,10 @@
             "console": "integratedTerminal"
         },
         {
-            "name": "Python Debugger: quote_fixer.py",
+            "name": "Python Debugger: quote_scanner.py",
             "type": "debugpy",
             "request": "launch",
-            "program": "quote_fixer.py",
+            "program": "quote_scanner.py",
             "console": "integratedTerminal"
         },
         {
